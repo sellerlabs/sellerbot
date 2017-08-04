@@ -33,16 +33,16 @@ Lita.configure do |config|
     config.redis.port = ENV.fetch('REDIS_PORT')
   end
 
-  config.handlers.imgflip.command_only = false
-  config.handlers.imgflip.username = ENV['IMGFLIP_USER']
-  config.handlers.imgflip.password = ENV['IMGFLIP_PASSWORD']
-
   ## Example: Set configuration for any loaded handlers. See the handler's
   ## documentation for options.
   # config.handlers.some_handler.some_config_key = "value"
   normalized_karma_user_term = ->(user_id, user_name) {
     "@#{user_id} (#{user_name})" #=> @UUID (Liz Lemon)
   }
+
+  # The following configuration will enable review requests and disable comments
+  config.handlers.reviewme.github_request_review = true  # default (false)
+  config.handlers.reviewme.github_comment = false        # default (true)
 
   config.handlers.slack_karma_sync.user_term_normalizer = normalized_karma_user_term
   config.handlers.karma.cooldown = nil
