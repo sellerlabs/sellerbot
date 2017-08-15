@@ -16,4 +16,5 @@ gem 'lita-slack' # slack adapter
 gem "lita-karma"
 gem "lita-slack-karma-sync"
 gem "lita-replace"
+gem "lita-imgflip"
 gem "lita-reviewme", github: "iamvery/lita-reviewme"
