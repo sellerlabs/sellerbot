@@ -43,6 +43,7 @@ Lita.configure do |config|
   # The following configuration will enable review requests and disable comments
   config.handlers.reviewme.github_request_review = true  # default (false)
   config.handlers.reviewme.github_comment = false        # default (true)
+  config.handlers.reviewme.github_access_token = ENV["GITHUB_ACCESS_TOKEN"]
 
   config.handlers.slack_karma_sync.user_term_normalizer = normalized_karma_user_term
   config.handlers.karma.cooldown = nil
