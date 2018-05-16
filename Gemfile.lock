@@ -12,8 +12,8 @@ GEM
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
     concurrent-ruby (1.0.5)
-    eventmachine (1.2.6)
-    faraday (0.15.0)
+    eventmachine (1.2.7)
+    faraday (0.15.1)
       multipart-post (>= 1.2, < 3)
     faye-websocket (0.10.7)
       eventmachine (>= 0.12.0)
@@ -40,11 +40,11 @@ GEM
       lita (>= 4.0)
     lita-replace (0.0.2)
       lita
-    lita-slack (1.8.0)
+    lita-slack (1.5.0)
       eventmachine
       faraday
       faye-websocket (>= 0.8.0)
-      lita (>= 4.7.1)
+      lita (>= 4.4.2)
       multi_json
     lita-slack-karma-sync (0.2.1)
       lita (>= 4.2)
@@ -79,7 +79,7 @@ DEPENDENCIES
   lita-karma
   lita-replace
   lita-reviewme!
-  lita-slack
+  lita-slack (= 1.5.0)
   lita-slack-karma-sync
 
 BUNDLED WITH

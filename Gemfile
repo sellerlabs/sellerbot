@@ -2,7 +2,7 @@ source "https://rubygems.org"
 ruby "2.1.6"
 
 gem "lita"
-gem 'lita-slack' # slack adapter
+gem 'lita-slack', '1.5.0' # slack adapter
 
 # Uncomment to use the HipChat adapter
 # gem "lita-hipchat"
