@@ -55,7 +55,7 @@ GEM
     octokit (4.8.0)
       sawyer (~> 0.8.0, >= 0.5.3)
     public_suffix (3.0.2)
-    puma (3.11.4)
+    puma (3.12.4)
     rack (1.6.10)
     rb-readline (0.5.5)
     redis (3.3.5)
