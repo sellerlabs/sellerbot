@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby "2.1.6"
+ruby "2.2.3"
 
 gem "lita"
 gem 'lita-slack', '1.5.0' # slack adapter
