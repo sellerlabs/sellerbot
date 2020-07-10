@@ -2,7 +2,9 @@ source "https://rubygems.org"
 ruby "2.6.3"
 
 gem "lita"
-gem 'lita-slack', '1.8.0' # slack adapter
+# trying something v experimental to try to eliminate Socket connection expiration
+gem "lita-slack", :git => 'https://github.com/Twister915/lita-slack.git', :ref => '8ab40a0'
+# gem 'lita-slack', '1.8.0' # slack adapter
 
 # Uncomment to use the HipChat adapter
 # gem "lita-hipchat"
