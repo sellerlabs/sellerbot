@@ -1,8 +1,8 @@
 source "https://rubygems.org"
-ruby "2.5.8"
+ruby "2.6.3"
 
 gem "lita"
-gem 'lita-slack', '1.5.0' # slack adapter
+gem 'lita-slack', '1.8.0' # slack adapter
 
 # Uncomment to use the HipChat adapter
 # gem "lita-hipchat"
