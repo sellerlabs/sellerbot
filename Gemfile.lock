@@ -6,6 +6,18 @@ GIT
       lita (>= 3.1)
       octokit (>= 3.0, < 5.0)
 
+GIT
+  remote: https://github.com/Twister915/lita-slack.git
+  revision: 8ab40a0f9abfa383e7c0e20708ef2f9a579fac1f
+  ref: 8ab40a0
+  specs:
+    lita-slack (1.8.1)
+      eventmachine
+      faraday
+      faye-websocket (>= 0.8.0)
+      lita (>= 4.7.1)
+      multi_json
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -40,12 +52,6 @@ GEM
       lita (>= 4.0)
     lita-replace (0.0.2)
       lita
-    lita-slack (1.8.0)
-      eventmachine
-      faraday
-      faye-websocket (>= 0.8.0)
-      lita (>= 4.7.1)
-      multi_json
     lita-slack-karma-sync (0.2.1)
       lita (>= 4.2)
       lita-karma (>= 3.0.2)
@@ -81,7 +87,7 @@ DEPENDENCIES
   lita-karma
   lita-replace
   lita-reviewme!
-  lita-slack (= 1.8.0)
+  lita-slack!
   lita-slack-karma-sync
 
 RUBY VERSION
